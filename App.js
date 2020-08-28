@@ -8,14 +8,14 @@ import List from "./components/List";
 const App = () => {
   return (
     <SafeAreaView  style={styles.container}>
-    <List/>
-
+      <List/>
     </SafeAreaView >
   );
 };
 
 const styles = StyleSheet.create({
   container: {
+
     paddingTop: 25,
     flex: 1,
     backgroundColor: '#050',

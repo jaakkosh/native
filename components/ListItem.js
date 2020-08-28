@@ -7,13 +7,13 @@ const ListItem = (props) => {
     <TouchableOpacity style={{backgroundColor: "f00"}}>
       <View style={{flex: 1, flexDirection: 'row', padding: 10}}>
         <Image
-          style={{width: 110, height: 110}}
+          style={{width: 110, height: 110,borderRadius : 50}}
           source={{uri: props.singleMedia.thumbnails.w160}}
         />
         <View>
 
-          <Text style={{width: 50, height: 50}}>{props.singleMedia.title}</Text>
-          <Text>{props.singleMedia.description}</Text>
+          <Text style={{ fontSize: 31 }}>{props.singleMedia.title}</Text>
+          <Text style={{ fontSize: 16 }}>{props.singleMedia.description}</Text>
         </View>
       </View>
     </TouchableOpacity>
